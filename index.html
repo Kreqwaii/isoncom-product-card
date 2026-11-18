@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IP PoE система видеонаблюдения со звуком ISON NEXUS PRO-4 (3 МП) — ISON</title>
+  <meta name="description" content="Готовый комплект IP PoE видеонаблюдения ISON NEXUS PRO со звуком и матрицами Sony Starvis. Гарантия 5 лет, доставка 0 ₽ по РФ.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f172a'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='%232563eb' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='3.5' fill='%2338bdf8'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand-area">
+        <a href="#top" class="brand-logo" aria-label="ISON — главная">
+          <img src="./assets/logo.png" alt="ISON" width="128" height="36">
+        </a>
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <a href="#top">Главная</a>
+          <span aria-hidden="true">/</span>
+          <a href="#top">Готовые комплекты видеонаблюдения</a>
+          <span aria-hidden="true">/</span>
+          <span class="current">IP PoE системы</span>
+        </nav>
+      </div>
+
+      <div class="header-actions">
+        <div class="header-phones">
+          <a href="tel:88005004355" class="phone-main">8 (800) 500-43-55</a>
+          <a href="tel:+79624860000" class="phone-sub">+7 (962) 486-00-00</a>
+          <a href="mailto:sales@isoncom.ru" class="header-email">sales@isoncom.ru</a>
+        </div>
+        <button id="openCartBtn" class="cart-trigger" type="button" aria-label="Открыть корзину">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span>Корзина</span>
+          <span id="cartCountBadge" class="cart-badge">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" class="container main-content">
+    <section class="product-layout" aria-label="Карточка товара">
+      <!-- Левая колонка: галерея и преимущества -->
+      <div class="gallery-col">
+        <div class="gallery-badges">
+          <span class="badge badge-warranty">Гарантия 5 лет</span>
+          <span class="badge badge-poe">Питание по 1 кабелю PoE</span>
+        </div>
+
+        <div class="gallery-stage">
+          <img id="mainProductImg" src="./assets/kit-1-main.png" alt="IP PoE система видеонаблюдения ISON NEXUS PRO-4">
+          <button id="zoomBtn" class="zoom-btn" type="button" aria-label="Увеличить изображение">Увеличить</button>
+        </div>
+
+        <div id="galleryThumbs" class="thumbs-row" role="list" aria-label="Миниатюры товара">
+          <button class="thumb-btn is-active" type="button" data-src="./assets/kit-1-main.png" aria-label="Общий вид комплекта">
+            <img src="./assets/kit-1-main.png" alt="Комплект ISON NEXUS PRO">
+          </button>
+          <button class="thumb-btn" type="button" data-src="./assets/kit-1-cam.png" aria-label="Камера из комплекта">
+            <img src="./assets/kit-1-cam.png" alt="IP-камера ISON">
+          </button>
+          <button class="thumb-btn" type="button" data-src="./assets/kit-1-nvr.png" aria-label="PoE видеорегистратор">
+            <img src="./assets/kit-1-nvr.png" alt="Видеорегистратор ISON PoE">
+          </button>
+          <button class="thumb-btn" type="button" data-src="./assets/kit-2-main.jpg" aria-label="Комплект ISON ALFA S Black">
+            <img src="./assets/kit-2-main.jpg" alt="Комплект ISON ALFA S Black">
+          </button>
+        </div>
+
+        <div class="usp-strip">
+          <div class="usp-card">
+            <strong>Матрицы Sony Starvis</strong>
+            <span>Четкая картинка ночью и при слабом освещении</span>
+          </div>
+          <div class="usp-card">
+            <strong>Запись звука</strong>
+            <span>Встроенные микрофоны с шумоподавлением</span>
+          </div>
+          <div class="usp-card">
+            <strong>Работа до -40°C IP67</strong>
+            <span>Герметичный металлический корпус</span>
+          </div>
+          <div class="usp-card">
+            <strong>Доставка 0 ₽ по РФ</strong>
+            <span>Отправка со склада в день заказа</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Правая колонка: конфигуратор и цена -->
+      <div class="config-col">
+        <div class="series-switch" role="group" aria-label="Выбор серии оборудования">
+          <button class="series-btn is-active" data-series="nexus" type="button">ISON NEXUS PRO (3 МП + Звук)</button>
+          <button class="series-btn" data-series="alfa" type="button">ISON ALFA S Black (4 МП Sony)</button>
+        </div>
+
+        <h1 id="productTitle">IP PoE система видеонаблюдения со звуком на 4 камеры ISON NEXUS PRO-4 (3 МП)</h1>
+
+        <div class="meta-row">
+          <span class="sku-label">Артикул: <strong id="productSku">021FP002-3-4-1</strong></span>
+          <span id="stockStatus" class="stock-pill in-stock">В наличии на складе</span>
+        </div>
+
+        <div class="config-box">
+          <div class="config-group">
+            <div class="config-label">
+              <span>1. Количество камер</span>
+              <span class="info-tip" data-tip="Регистратор подбирается автоматически с запасом каналов PoE" tabindex="0" aria-label="Подсказка по количеству камер">?</span>
+            </div>
+            <div class="options-grid">
+              <button class="opt-btn opt-cam" type="button" data-cams="2">2 камеры</button>
+              <button class="opt-btn opt-cam is-active" type="button" data-cams="4">4 камеры</button>
+              <button class="opt-btn opt-cam" type="button" data-cams="8">8 камер</button>
+              <button class="opt-btn opt-cam" type="button" data-cams="16">16 камер</button>
+            </div>
+          </div>
+
+          <div class="config-group">
+            <div class="config-label">
+              <span>2. Жесткий диск (архив записи)</span>
+              <span class="info-tip" data-tip="Специализированные диски серии Surveillance 24/7" tabindex="0" aria-label="Подсказка по жесткому диску">?</span>
+            </div>
+            <div class="options-grid">
+              <button class="opt-btn opt-hdd" type="button" data-hdd="0">Без HDD</button>
+              <button class="opt-btn opt-hdd is-active" type="button" data-hdd="1">1 ТБ (~14 дней)</button>
+              <button class="opt-btn opt-hdd" type="button" data-hdd="2">2 ТБ (~28 дней)</button>
+              <button class="opt-btn opt-hdd" type="button" data-hdd="4">4 ТБ (~55 дней)</button>
+            </div>
+          </div>
+
+          <div class="config-group">
+            <div class="config-label">
+              <span>3. Длина кабеля на каждую камеру</span>
+            </div>
+            <div class="options-grid options-3">
+              <button class="opt-btn opt-cable is-active" type="button" data-cable="18">18 м (в комплекте)</button>
+              <button class="opt-btn opt-cable" type="button" data-cable="30">30 м</button>
+              <button class="opt-btn opt-cable" type="button" data-cable="50">50 м</button>
+            </div>
+          </div>
+
+          <div class="config-group">
+            <div class="config-label">
+              <span>4. Исполнение камер</span>
+            </div>
+            <div class="options-grid options-3">
+              <button class="opt-btn opt-body is-active" type="button" data-body="bullet">Уличные IP67 (-40°C)</button>
+              <button class="opt-btn opt-body" type="button" data-body="dome">Купольные для помещений</button>
+              <button class="opt-btn opt-body" type="button" data-body="mixed">Комбинированные</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="price-card">
+          <div class="price-row">
+            <div>
+              <div class="old-price" id="oldPrice">49 900 ₽</div>
+              <div class="current-price" id="totalPrice">43 850 ₽</div>
+            </div>
+          </div>
+          <div class="installment-note" id="monthlyInstallment">или от 3 654 ₽/мес в рассрочку без переплат</div>
+          <div class="cta-stack">
+            <button id="addToCartBtn" class="btn-primary" type="button">В корзину комплектом</button>
+            <button id="oneClickBtn" class="btn-secondary" type="button">Купить в 1 клик / КП для юрлиц</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Нижняя секция с вкладками -->
+    <section class="details-section" aria-label="Подробная информация о системе">
+      <div class="tabs-nav" role="tablist">
+        <button class="tab-btn is-active" type="button" role="tab" aria-selected="true" data-tab="kit">Состав комплекта</button>
+        <button class="tab-btn" type="button" role="tab" aria-selected="false" data-tab="specs">Характеристики</button>
+        <button class="tab-btn" type="button" role="tab" aria-selected="false" data-tab="wiring">Схема подключения PoE</button>
+        <button class="tab-btn" type="button" role="tab" aria-selected="false" data-tab="woo">Архитектура для WordPress</button>
+        <button class="tab-btn" type="button" role="tab" aria-selected="false" data-tab="reviews">Отзывы (14)</button>
+      </div>
+
+      <div class="tabs-content">
+        <div id="tab-kit" class="tab-panel is-active" role="tabpanel">
+          <h2>Что входит в готовый комплект</h2>
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Компонент</th>
+                  <th>Модель / Описание</th>
+                  <th>Кол-во</th>
+                </tr>
+              </thead>
+              <tbody id="kitListBody">
+                <tr>
+                  <td>IP PoE видеорегистратор</td>
+                  <td>ISON NVR-POE-4K (4 канала PoE, поддержка HDD до 8 ТБ, H.265+)</td>
+                  <td>1 шт.</td>
+                </tr>
+                <tr>
+                  <td>IP-камера со звуком</td>
+                  <td>ISON NEXUS PRO 3 МП, Sony Starvis, ИК-подсветка 30 м, микрофон</td>
+                  <td>4 шт.</td>
+                </tr>
+                <tr>
+                  <td>Жесткий диск</td>
+                  <td>Surveillance 24/7 объемом 1 ТБ (установлен и отформатирован)</td>
+                  <td>1 шт.</td>
+                </tr>
+                <tr>
+                  <td>Готовый кабель витая пара</td>
+                  <td>Обжатый кабель Cat5e с влагозащитными колпачками, длина 18 м</td>
+                  <td>4 бухты</td>
+                </tr>
+                <tr>
+                  <td>Аксессуары и монтаж</td>
+                  <td>Блок питания 48В, мышь, HDMI-кабель, крепеж, наклейка «Ведется видеонаблюдение»</td>
+                  <td>1 компл.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div id="tab-specs" class="tab-panel" role="tabpanel">
+          <h2>Технические характеристики</h2>
+          <div class="specs-grid">
+            <div class="specs-block">
+              <h3>IP-камеры</h3>
+              <table class="data-table">
+                <tbody>
+                  <tr>
+                    <th>Матрица</th>
+                    <td>1/2.8" CMOS Sony Starvis</td>
+                  </tr>
+                  <tr>
+                    <th>Разрешение</th>
+                    <td>3 МП (2048×1536) / 4 МП (2560×1440)</td>
+                  </tr>
+                  <tr>
+                    <th>ИК-подсветка</th>
+                    <td>до 30 м (Smart IR)</td>
+                  </tr>
+                  <tr>
+                    <th>Аудио</th>
+                    <td>Встроенный микрофон с шумоподавлением</td>
+                  </tr>
+                  <tr>
+                    <th>Кодек сжатия</th>
+                    <td>H.265+ / H.265 / H.264</td>
+                  </tr>
+                  <tr>
+                    <th>Степень защиты</th>
+                    <td>IP67, рабочая температура -40°C…+60°C</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="specs-block">
+              <h3>Видеорегистратор NVR</h3>
+              <table class="data-table">
+                <tbody>
+                  <tr>
+                    <th>PoE-коммутатор</th>
+                    <td>Встроенный, питание камер по 1 кабелю до 100 м</td>
+                  </tr>
+                  <tr>
+                    <th>Удаленный доступ</th>
+                    <td>Мобильное приложение RU (iOS / Android) без абонентской платы</td>
+                  </tr>
+                  <tr>
+                    <th>Аналитика</th>
+                    <td>Детекция движения ИИ (человек / автомобиль)</td>
+                  </tr>
+                  <tr>
+                    <th>Видеовыходы</th>
+                    <td>HDMI (до 4K), VGA</td>
+                  </tr>
+                  <tr>
+                    <th>Хранение архива</th>
+                    <td>1×SATA до 8 ТБ (серия Surveillance 24/7)</td>
+                  </tr>
+                  <tr>
+                    <th>Гарантия</th>
+                    <td>5 лет официальной гарантии ISON</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab-wiring" class="tab-panel" role="tabpanel">
+          <h2>Схема подключения по технологии PoE</h2>
+          <p class="tab-lead">Питание, видеопоток и звук передаются по одному кабелю витая пара — розетки рядом с камерами не требуются.</p>
+          <div class="wiring-diagram">
+            <svg viewBox="0 0 860 220" width="100%" role="img" aria-label="Схема подключения PoE системы ISON">
+              <rect x="15" y="65" width="150" height="80" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+              <text x="90" y="100" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Смартфон / ПК</text>
+              <text x="90" y="122" text-anchor="middle" font-size="12" fill="#475569">Приложение ISON RU</text>
+
+              <line x1="165" y1="105" x2="225" y2="105" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="5 4"/>
+
+              <rect x="225" y="65" width="130" height="80" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+              <text x="290" y="100" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Роутер</text>
+              <text x="290" y="122" text-anchor="middle" font-size="12" fill="#475569">Интернет / LAN</text>
+
+              <line x1="355" y1="105" x2="415" y2="105" stroke="#2563eb" stroke-width="2.5"/>
+
+              <rect x="415" y="50" width="190" height="110" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2.5"/>
+              <text x="510" y="90" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">PoE Видеорегистратор</text>
+              <text x="510" y="112" text-anchor="middle" font-size="12" fill="#1e40af">ISON NVR (с HDD)</text>
+              <text x="510" y="134" text-anchor="middle" font-size="11" fill="#3b82f6">Встроенный PoE-коммутатор</text>
+
+              <line x1="605" y1="105" x2="685" y2="55" stroke="#0f172a" stroke-width="2"/>
+              <line x1="605" y1="105" x2="685" y2="105" stroke="#0f172a" stroke-width="2"/>
+              <line x1="605" y1="105" x2="685" y2="155" stroke="#0f172a" stroke-width="2"/>
+
+              <rect x="685" y="25" width="160" height="50" rx="8" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+              <text x="765" y="55" text-anchor="middle" font-size="13" font-weight="600" fill="#0f172a">IP-камера 1 (PoE)</text>
+
+              <rect x="685" y="80" width="160" height="50" rx="8" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+              <text x="765" y="110" text-anchor="middle" font-size="13" font-weight="600" fill="#0f172a">IP-камера 2 (PoE)</text>
+
+              <rect x="685" y="135" width="160" height="50" rx="8" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+              <text x="765" y="165" text-anchor="middle" font-size="13" font-weight="600" fill="#0f172a">IP-камера N (PoE)</text>
+
+              <text x="645" y="198" text-anchor="middle" font-size="12" font-weight="600" fill="#2563eb">1 витая пара PoE (питание + видео + звук)</text>
+            </svg>
+          </div>
+        </div>
+
+        <div id="tab-woo" class="tab-panel" role="tabpanel">
+          <h2>Архитектура интеграции в WordPress / WooCommerce</h2>
+          <div class="woo-note">
+            <p>Шаблон спроектирован для прямой интеграции в тему <strong>isoncom.ru</strong> через кастомный <code>single-product.php</code> WooCommerce. Конфигуратор работает на легком JSON-слое вариативных атрибутов без создания 40+ дублей товаров в базе данных и без тяжелых сторонних плагинов.</p>
+            <ul>
+              <li>Время первой отрисовки и интерактивности: <strong>&lt; 0.8s</strong>.</li>
+              <li>Единый SKU и динамический пересчет цены, состава комплекта и рассрочки на стороне клиента с валидацией на сервере при добавлении в корзину WooCommerce.</li>
+              <li>Готовая форма быстрого заказа и генерации КП для юридических лиц с передачей ИНН в CRM.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="tab-reviews" class="tab-panel" role="tabpanel">
+          <h2>Отзывы покупателей</h2>
+          <div class="reviews-list">
+            <article class="review-card">
+              <div class="review-head">
+                <strong>Алексей М.</strong>
+                <span>Частный дом, Подмосковье</span>
+              </div>
+              <p>Установил комплект на 4 камеры с диском 2 ТБ за один выходной. Очень удобно, что по одному кабелю идет и питание, и звук. Ночью на участке все видно четко, лица распознаются без проблем.</p>
+            </article>
+            <article class="review-card">
+              <div class="review-head">
+                <strong>ООО «Логистик-Юг»</strong>
+                <span>Складской комплекс, Краснодар</span>
+              </div>
+              <p>Заказывали 8-камерный комплект ISON NEXUS PRO по безналу с НДС. Счет выставили за 15 минут, отгрузили в тот же день. В приложении на телефоне смотрим сразу все зоны погрузки.</p>
+            </article>
+            <article class="review-card">
+              <div class="review-head">
+                <strong>Ирина К.</strong>
+                <span>ПВЗ, Екатеринбург</span>
+              </div>
+              <p>Для пункта выдачи критична запись звука на стойке. Микрофоны в камерах отличные, речь слышно разборчиво. Никаких абонентских плат за облако — весь архив пишется локально на регистратор.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Лайтбокс для увеличения фото -->
+  <div id="lightboxModal" class="modal-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Увеличенное изображение">
+    <div class="modal-dialog modal-lightbox">
+      <button id="closeLightboxBtn" class="modal-close" type="button" aria-label="Закрыть">&times;</button>
+      <img id="lightboxImg" src="./assets/kit-1-main.png" alt="Увеличенное фото комплекта">
+    </div>
+  </div>
+
+  <!-- Боковая корзина -->
+  <div id="cartDrawer" class="drawer-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Корзина">
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <h2>Корзина</h2>
+        <button id="closeCartBtn" class="modal-close" type="button" aria-label="Закрыть корзину">&times;</button>
+      </div>
+      <div id="cartItems" class="drawer-body"></div>
+      <div class="drawer-footer">
+        <div class="cart-total-row">
+          <span>Итого:</span>
+          <strong id="cartTotal">0 ₽</strong>
+        </div>
+        <form id="checkoutForm" class="checkout-form">
+          <input type="text" name="name" placeholder="Ваше имя" required>
+          <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+          <textarea name="comment" rows="2" placeholder="Комментарий к заказу (необязательно)"></textarea>
+          <button type="submit" class="btn-primary">Оформить заказ</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Модальное окно быстрого заказа / КП -->
+  <div id="quickOrderModal" class="modal-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Быстрый заказ и КП для юрлиц">
+    <div class="modal-dialog">
+      <button id="closeQuickModalBtn" class="modal-close" type="button" aria-label="Закрыть">&times;</button>
+      <h2>Купить в 1 клик / КП для юрлиц</h2>
+      <div id="quickSummary" class="quick-summary"></div>
+      <form id="quickOrderForm" class="checkout-form">
+        <input type="text" name="name" placeholder="Контактное лицо" required>
+        <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+        <input type="text" name="inn" placeholder="ИНН организации (для счета и КП, необязательно)">
+        <button type="submit" class="btn-primary">Отправить заявку</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="toastContainer" class="toast-container" aria-live="polite"></div>
+</body>
+</html>

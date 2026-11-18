@@ -1,0 +1,133 @@
+{
+  "brand": {
+    "name": "ISONCOM (ISON)",
+    "url": "https://isoncom.ru",
+    "phones": [
+      "8 (800) 500-43-55",
+      "+7 (962) 486-00-00"
+    ],
+    "email": "sales@isoncom.ru",
+    "logo": "logo.png",
+    "palette": {
+      "primary_blue": "#0066CC",
+      "dark_navy": "#1A2332",
+      "accent_orange": "#FF6B00",
+      "bg_light": "#F5F7FA",
+      "text_dark": "#222222"
+    },
+    "usp_guarantees": [
+      "Гарантия 5 лет (расширенная)",
+      "Бесплатная доставка по РФ от 15 000 ₽",
+      "Техподдержка 24/7 и настройка под ключ",
+      "Матрицы Sony Starvis (ночная съемка)"
+    ]
+  },
+  "current_wp_card_pain_points": [
+    "Сотни дублирующихся карточек товаров под разное количество камер (1, 2, 3, 4, 5, 6, 7, 8, 10, 16, 20, 32, 64 камеры) вместо единого удобного конфигуратора.",
+    "Отсутствует интерактивный выбор объема HDD, длины кабеля и типа корпуса камер прямо на карточке с мгновенным пересчетом цены.",
+    "Перегруженная галерея (до 20+ однотипных изображений) без четкой визуальной группировки (комплект / камера / регистратор / ночная съемка).",
+    "Длинные простыни текста в описании вместо структурированной таблицы характеристик и наглядной комплектации."
+  ],
+  "products": [
+    {
+      "id": 29736,
+      "sku": "021FP002-3-4-1",
+      "name": "IP POE Система видеонаблюдения со звуком на 4 камеры 3 мегапикселя ISON NEXUS PRO-4",
+      "price_rub": 36950,
+      "regular_price_rub": 36950,
+      "permalink": "https://isoncom.ru/magazin/videonablyudenie/gotovye-komplekty/ison-nexus-pro-4/",
+      "short_description": "",
+      "description_excerpt": "В наличии: 1шт (Последний комплект, скоро закончатся)",
+      "images": [
+        "kit-1-main.png",
+        "kit-1-cam.png",
+        "kit-1-nvr.png"
+      ],
+      "in_stock": true
+    },
+    {
+      "id": 26638,
+      "sku": "021FPP244-4",
+      "name": "IP Система видеонаблюдения 2 камеры POE 4 мегапикселя ISON ALFA-2 S Black с матрицами SONY",
+      "price_rub": 49300,
+      "regular_price_rub": 49300,
+      "permalink": "https://isoncom.ru/magazin/videonablyudenie/gotovye-komplekty/ison-alfa-s-2-black/",
+      "short_description": "",
+      "description_excerpt": "Готовая IP система видеонаблюдения с питанием POE. Комплект видеонаблюдения ISON ALFA S на 2 камеры производит запись в формате высокой четкости 4 мегапикселя 1440p, а также имеет удобную функцию передачи питания и видеосигнала по одному кабелю POE, данная функция значительно упростит мон&#8230;",
+      "images": [
+        "kit-2-main.jpg",
+        "kit-2-cam.jpg",
+        "kit-2-nvr.jpg"
+      ],
+      "in_stock": false
+    },
+    {
+      "id": 29735,
+      "sku": "021FP002-4-4-1",
+      "name": "IP Система видеонаблюдения со звуком POE на 4 камеры ISON NEXUS PRO-4 3 мегапикселя с жестким диском",
+      "price_rub": 50840,
+      "regular_price_rub": 50840,
+      "permalink": "https://isoncom.ru/magazin/videonablyudenie/gotovye-komplekty/ison-nexus-pro-4-h/",
+      "short_description": "",
+      "description_excerpt": "В наличии: 1шт (Последний комплект, скоро закончатся)",
+      "images": [
+        "kit-3-main.jpg",
+        "kit-3-cam.png",
+        "kit-3-nvr.png"
+      ],
+      "in_stock": true
+    }
+  ],
+  "downloaded_images": [
+    {
+      "filename": "logo.png",
+      "bytes": 6957,
+      "source": "https://isoncom.ru/ison/uploads/2020/05/logo.png"
+    },
+    {
+      "filename": "kit-1-main.png",
+      "bytes": 678947,
+      "source": "https://isoncom.ru/ison/uploads/2026/10/01.png"
+    },
+    {
+      "filename": "kit-1-cam.png",
+      "bytes": 1516411,
+      "source": "https://isoncom.ru/ison/uploads/2026/10/Цифровая-IP-камера-видеонаблюдения-с-микрофоном-POE-EK-7340SVN-ST.png"
+    },
+    {
+      "filename": "kit-1-nvr.png",
+      "bytes": 779266,
+      "source": "https://isoncom.ru/ison/uploads/2026/10/7c218e51-0c5e-4ac8-b289-8130e3e1531c.png"
+    },
+    {
+      "filename": "kit-2-main.jpg",
+      "bytes": 49716,
+      "source": "https://isoncom.ru/ison/uploads/2026/01/Готовая-система-видеонаблюдения-на-2-камеры-с-POE-ISON-ALFA-2_black.jpg"
+    },
+    {
+      "filename": "kit-2-cam.jpg",
+      "bytes": 41407,
+      "source": "https://isoncom.ru/ison/uploads/2026/01/IP-камера-видеонаблюдения-5-мегапикселей-с-POE-ISON-IP50S-R-1_black.jpg"
+    },
+    {
+      "filename": "kit-2-nvr.jpg",
+      "bytes": 19831,
+      "source": "https://isoncom.ru/ison/uploads/2026/01/2561_black.jpg"
+    },
+    {
+      "filename": "kit-3-main.jpg",
+      "bytes": 138258,
+      "source": "https://isoncom.ru/ison/uploads/2026/10/16.jpg"
+    },
+    {
+      "filename": "kit-3-cam.png",
+      "bytes": 1516411,
+      "source": "https://isoncom.ru/ison/uploads/2026/10/Цифровая-IP-камера-видеонаблюдения-с-микрофоном-POE-EK-7340SVN-ST.png"
+    },
+    {
+      "filename": "kit-3-nvr.png",
+      "bytes": 922726,
+      "source": "https://isoncom.ru/ison/uploads/2026/10/4c1f0886-549f-49d2-a225-fbe586f21de5.png"
+    }
+  ]
+}
